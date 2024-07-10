@@ -13,7 +13,6 @@ header {
     align-items: center;
     border-bottom: 2px solid;
     border-color: rgba(182, 177, 177, 0.25);
-
 }
 
 .myntra-home {
@@ -46,7 +45,7 @@ a {
     text-transform: uppercase;
     padding: 28px 0;
     border-bottom: 4px solid #ffffff;
-    transition: all 1s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .nav_bar a:hover {
@@ -110,7 +109,6 @@ a {
     font-size: 25px;
     display: flex;
     align-items: center;
-
 }
 
 .scroll-container pre {
@@ -135,4 +133,53 @@ a {
 
 .sale_item {
     width: 250px;
+}
+
+.footer_container {
+    padding: 30px 0px 40px 0px;
+    background-color: #fafbfc;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_column h3 {
+    color: #282c3f;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+.footer_column a {
+    color: #696b79;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.contact_links {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding-bottom: 10px;
+}
+
+.contact_links a img {
+    border-radius: 7px;
+    height: 45px;
+    width: 140px;
+}
+
+.contact_links2 {
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.copyright {
+    color: #94969f;
+    text-align: end;
+    padding: 15px;
 }
